@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:pink;
+}
+.header{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header a{
+    display: flex;
+    flex: 5;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    color: black;
+    transition: 0.4s;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(245, 74, 103);
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    min-height: 60px;
+}
+.header a:hover{
+    background-color: rgb(250, 144, 162);
+    color:rgb(245, 74, 103);
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgb(245, 74, 103);
+    font-weight: 900;
+    text-shadow: 5px 5px 10px rgb(245, 74, 103);
+    font-size: 16px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer p{
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    color: rgb(250, 105, 129);
+}
+.container{
+    margin-top: 100px;
+}
+.container p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 50px;
+    text-align: center;
+    color: rgb(245, 74, 103);
+}
+.credit-container{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-self: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+.credit-container p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+}
+.poem-container{
+    display: flex;
+    flex-direction: column;
+}
+.poem-container .image {
+    margin-top: 100px;
+}
+.description-container{
+    margin-top: 100px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="infotext"></p>
+</body>
+<script>
+  function redirectToPage() {
+    const targetDate = new Date('2025-06-20T00:00:00');
+    const currentDate = new Date();
+
+    if (currentDate >= targetDate) {
+      window.location.href = 'first.html';
+    }else{
+        window.location.href='sorry.html';
+    }
+  }
+
+  redirectToPage();
+</script>
+</html>
