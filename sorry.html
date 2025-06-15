@@ -1,2 +1,29 @@
 <title>Just Wait Cutupie</title>
 <p>the page will be operational on 20th june 2025</p>
+<p id="phrase"></p>
+<button onclick="returnrandomphrase()">I can't wait</button>
+<script>
+  const one="can't control till 20th huh??";
+  const two="again opening????";
+  const three="wait for sometime darling.";
+  const four=" ur doing good if i were at ur place i would have opened it ten times a day.";
+  const five="u really need to work on those patience skills darling";
+  const phr=document.getElementById("phrase");
+
+  function returnrandomphrase(){
+    random=Math.random();
+    if(random>=0 && random<0.2){
+      phr.innerHTML=one;}
+    else if(random>=0.2 && random<0.4){
+      phr.innerHTML=two;}
+    else if(random>=0.4 && random<0.6){
+      phr.innerHTML=three;}
+     else if(random>=0.6 && random<0.8){
+      phr.innerHTML=four;}
+     else{
+      phr.innerHTML=five;}
+
+
+  }
+  returnrandomphrase();
+</script>
